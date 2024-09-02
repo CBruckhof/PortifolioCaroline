@@ -1,1 +1,145 @@
+@charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    text-align: justify;
+    font-size: 21px;
+    background-image: url(../img/levi-loot-rHvHUto9gZA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+#menuh ul {
+    list-style: none;
+    padding: 0;
+    background-color: #bd04d1;
+    text-align: center;
+    font-size: 17px;
+} 
+
+#menuh ul li {
+    display: inline;
+}
+
+#menuh ul li a {
+    color: aliceblue;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+#menuh ul li a:hover {
+    background-color: #a51c9f;
+}
+
+p, h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px; 
+}
+
+#paragrafo01 {
+    width: 200%;
+    max-width: 1000px;
+    background-color: transparent;
+    padding: 25px; 
+}
+
+#paragrafo02A {
+    width: 300%;
+    max-width: 900px;
+    background-color: transparent;
+    padding: 30px;  
+}
+
+#paragrafo02C {
+    width: 300%;
+    max-width: 900px;
+    background-color: transparent;
+    padding: 30px;   
+}
+
+#paragrafo03 {
+    width: 100%;
+    max-width: 700px;
+    background-color: transparent;
+    padding: 25px;   
+}
+
+#paragrafo04 {
+    width: 300%;
+    max-width: 300px;
+    background-color: transparent;
+    padding: 25px; 
+}
+
+#paragrafo05 {
+    width: 200%;
+    max-width: 1000px;
+    background-color: transparent;
+    padding: 25px; 
+}
+
+#linkproj {
+    color: #f057a9;
+}
+
+#linkproj:hover {
+    color: #bd2f8e;
+}
+
+.row {
+    padding: 0 20px;
+    display: table;
+    width: 70%;
+}
+
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    
+}
+
+label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+    color: #ffff;
+}
+
+button {
+    background-color: #ffff;
+    border: 1px solid #f057a9;
+    color:#f057a9;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #f057a9;
+    color: #ffff;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+}
